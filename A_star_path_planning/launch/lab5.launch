@@ -1,0 +1,4 @@
+<launch>
+    <node name="stage" pkg="stage_ros" type="stageros" args="$(find lab5)/world/playground.world" />
+    <node name="lab5" pkg="lab5" type="lab5_version_ten.py" />
+</launch>
